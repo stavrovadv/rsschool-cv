@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  flex-shrink: 0;
+  background-color: var(--bg-small);
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 0;
+}
+
+.rs-block{
+  width: 200px;
+}

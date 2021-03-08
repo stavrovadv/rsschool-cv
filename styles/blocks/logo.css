@@ -1,0 +1,10 @@
+.logo-link{
+  font-family: 'Fascinate';
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #fff;
+}
+
+.header .logo-link{
+  flex: 1;
+}

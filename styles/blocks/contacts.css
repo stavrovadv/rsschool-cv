@@ -1,0 +1,22 @@
+.contacts{
+  margin-top: 3%;
+  padding: 3%;
+  width: 100%;
+  font-size: 14px;
+  background-color: var(--bg-small);
+}
+
+.contacts__list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+.contacts__item{
+  flex: 1;
+}
+
+.contacts__subtitle{
+  font-style: italic;
+}

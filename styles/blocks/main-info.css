@@ -1,0 +1,29 @@
+.main-info{
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.main-info__image{
+  max-width: 30%;
+}
+
+.main-info__content{
+  padding: 5% 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.main-info__text{
+  width: 100%;
+}
+
+.main-info__image{
+  width: 20%;
+  margin-right: 30px;
+}
+
+.main-info__title{
+  font-weight: bold;
+  font-size: 36px;
+}
