@@ -1,0 +1,16 @@
+.social{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__img{
+  width: 30px;
+  padding: 4px;
+}
+
+.social__link:hover{
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+}

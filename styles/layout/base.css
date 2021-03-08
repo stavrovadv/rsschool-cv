@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --bg: #000000;
+  --bg-small: #21252f;
+  --bg-aside: #d0dae4;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+address{
+  font-style: normal;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-content{
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.base-title{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.base-subtitle{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.skills, .languages, .interships, .experience, .code{
+  margin-top: 20px;
+}
+
+.time{
+  border-bottom: 1px solid var(--bg-small);
+  font-size: 10px;
+}

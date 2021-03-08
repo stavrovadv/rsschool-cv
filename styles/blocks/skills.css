@@ -1,0 +1,22 @@
+.skills__item{
+  padding-left: 5px;
+  position: relative;
+}
+
+.skills__item:not(:first-child){
+  margin-top: 5px;
+}
+
+.skills__item::before{
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  /* vertical-align: middle; */
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,21 @@
+.interships{
+
+}
+
+.interships__item{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.interships__column{
+  flex: 1;
+}
+
+.interships__desc{
+  flex: 3;
+}
+
+.interships__subtitle{
+  
+}
