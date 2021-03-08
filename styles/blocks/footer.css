@@ -14,3 +14,10 @@
 .rs-block{
   width: 200px;
 }
+
+.footer-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}

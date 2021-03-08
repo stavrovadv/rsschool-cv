@@ -12,7 +12,7 @@
   <body>
     <div class="wrapper">
       <div class="wrapper-content">
-        <section class="main-info">
+        <div class="main-info">
           <header class="header">
             <div class="container">
               <div class="header-content">
@@ -53,7 +53,7 @@
               </div>
               <div class="main-info__text">
                 <h1 class="main-info__title">Stavrova Daria</h1>
-                <address class="contacts" id="contacts">
+                <div class="contacts" id="contacts">
                   <h2 class="base-title contacts__title">Contacts</h2>
                   <ul class="contacts__list">
                     <li class="contacts__item">
@@ -79,18 +79,18 @@
                       </div>
                     </li>
                   </ul>
-                </address>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <section class="additional-info">
+        </div>
+        <div class="additional-info">
           <div class="container additional-container">
             <aside class="aside">
               <section class="education" id="education">
                 <h2 class="base-title additional-info__title">Education</h2>
                 <article class="education__desc">
-                  <time class="education__time time">July 2018</time>
+                  <time class="education__time time" datetime="2018-07-15 19:00">July 2018</time>
                   <h3 class="base-subtitle education__subtitle">Bachelor’s degree in “Applied Informatics”</h3>
                   <div class="education__university">
                     Basic Department of Business Process Automation based on 1C.<br>
@@ -130,7 +130,7 @@
                 <ul class="interships__list">
                   <li class="interships__item">
                     <div class="interships__column">
-                      <time class="interships__time time">June - July 2017</time>
+                      <time class="interships__time time" datetime="2017-06-15 19:00">June - July 2017</time>
                     </div>
                     <div class="interships__desc">
                       <h3 class="interships__subtitle base-subtitle">Intern 1C</h3>
@@ -139,7 +139,7 @@
                   </li>
                   <li class="interships__item">
                     <div class="interships__column">
-                      <time class="interships__time time">April - June 2018</time></div>
+                      <time class="interships__time time" datetime="2018-04-15 19:00">April - June 2018</time></div>
                     <div class="interships__desc">
                       <h3 class="interships__subtitle base-subtitle">Intern 1C</h3>
                       <p class="interships__task">The subsystem "Payment calendar" was developed on the basis of "1C: Enterprise Accounting".</p>
@@ -157,44 +157,44 @@
               </section>
               <section class="code" id="code">
                 <h2 class="base-title">Code example</h2>
-                <code class="code-block">
-                  <pre>
-  &lt;ul class="social"&gt;
-    &lt;li class="social__item"&gt;
-      &lt;a href="#" class="social__link"&gt;
-        &lt;svg class="social__img"&gt;
-          &lt;use xlink:href="./img/sprite.svg#vk"&gt;&lt;/use&gt;
-        &lt;/svg&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class="social__item"&gt;
-      &lt;a href="#" class="social__link"&gt;
-        &lt;svg class="social__img"&gt;
-          &lt;use xlink:href="./img/sprite.svg#fb"&gt;&lt;/use&gt;
-        &lt;/svg&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class="social__item"&gt;
-      &lt;a href="#" class="social__link"&gt;
-        &lt;svg class="social__img"&gt;
-          &lt;use xlink:href="./img/sprite.svg#inst"&gt;&lt;/use&gt;
-        &lt;/svg&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class="social__item"&gt;
-      &lt;a href="#" class="social__link"&gt;
-        &lt;svg class="social__img"&gt;
-          &lt;use xlink:href="./img/sprite.svg#tw"&gt;&lt;/use&gt;
-        &lt;/svg&gt;
-      &lt;/a&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-                  </pre>
-                </code>
+                <pre>
+                  <code class="code-block">
+&lt;ul class="social"&gt;
+  &lt;li class="social__item"&gt;
+    &lt;a href="#" class="social__link"&gt;
+      &lt;svg class="social__img"&gt;
+        &lt;use xlink:href="./img/sprite.svg#vk"&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="social__item"&gt;
+    &lt;a href="#" class="social__link"&gt;
+      &lt;svg class="social__img"&gt;
+        &lt;use xlink:href="./img/sprite.svg#fb"&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="social__item"&gt;
+    &lt;a href="#" class="social__link"&gt;
+      &lt;svg class="social__img"&gt;
+        &lt;use xlink:href="./img/sprite.svg#inst"&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="social__item"&gt;
+    &lt;a href="#" class="social__link"&gt;
+      &lt;svg class="social__img"&gt;
+        &lt;use xlink:href="./img/sprite.svg#tw"&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+                  </code>
+                </pre>
               </section>
             </main>
           </div>
-        </section>
+        </div>
       </div>
       <footer class="footer">
         <div class="container footer-container">
@@ -203,7 +203,10 @@
               <img class="rs-logo" src="./images/rs_school_js.svg" alt="rs school logo">
             </a>
           </div>
-          <a class="logo-link" href="./index.html"> CV Stavrovadv </a>
+          <div class="footer-block">
+            <a class="logo-link" href="./index.html"> CV Stavrovadv </a>
+            <time class="footer__datetime" datetime="2021-03-08 7:00">2021</time>
+          </div>
           <ul class="social">
             <li class="social__item">
               <a href="https://github.com/stavrovadv" class="social__link">
